@@ -343,7 +343,8 @@ body {
   background: #fff;
   min-width: 216px;
   -webkit-box-shadow: 0px 4px 4px black;
-          box-shadow: 0px 4px 4px black; }
+          box-shadow: 0px 4px 4px black;
+  margin: 48px 0 26px; }
 
 .button-remove {
   background: none;
