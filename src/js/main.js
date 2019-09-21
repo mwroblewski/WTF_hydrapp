@@ -16,7 +16,15 @@ if ('serviceWorker' in navigator) {
 
 // place your code below
 
+const buttonAdd = document.querySelector('.button-add--js');
+const buttonRemove = document.querySelector('.button-remove--js');
+const value = document.querySelector('.counter__value--js');
 
-console.log(`Hello world!`);
+buttonAdd.addEventListener('click', (e) => {
+  value.innerHTML = parseInt(value.innerHTML) + 1;
+})
 
+buttonRemove.addEventListener('click', (e) => {
+  value.innerHTML = parseInt(value.innerHTML) - 1;
+})
 
